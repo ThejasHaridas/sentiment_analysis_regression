@@ -3,7 +3,7 @@ import joblib
 
 model = joblib.load("sentiment-model.pkl")
 
-sentiment_labels = {'1':'Positive', '2':'Negative'}
+sentiment_labels = {'1':'Positive', '0':'Negative'}
 
 st.title("Sentiment Analysis")
 
